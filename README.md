@@ -4,8 +4,7 @@ Topic Modeling for DOW Chemical using LDA<BR>
 This code was developed using Python 3.5. It also requires the following packages to be installed:<BR>
 pandas, re, time, nltk, sklearn, numpy, textblob<BR>
 <BR>
-This folder contains:<BR>
-Three Python Jupyter notebooks:<BR>
+This folder contains 3 Python Jupyter notebooks:<BR>
 Homecare.ipynb<BR>
 Feature Building For LDA.ipynb<BR>
 LDA and NMF.ipynb<BR>
