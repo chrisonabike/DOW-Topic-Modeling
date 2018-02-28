@@ -28,9 +28,13 @@ Three datasets:
 1) Ensure all files are saved in the same directory and all packages and dependencies are installed.
 2) To run the fiels, paste the code into your IDE or open the notebooks in Jupyter.
 3) Run 'Homecare' (.py or ipynb) first. This will output 4 .csv files:
+
 home_products.csv    <- The data in this file is used by the subsequent script in step 4
+
 count_of_products.csv
+
 products_with_more_than_ten_reviews.csv
+
 only_sentences.csv <- can be used for topic modeling on individual sentences or for sentiment analysis.
                 
 4) Run 'Feature Building For LDA' (.py or ipynb). This uses the output from 'Homecare.py' (named 'home_products.csv')
