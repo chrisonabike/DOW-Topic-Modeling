@@ -1,32 +1,32 @@
 # DOW-Topic-Modeling
-Topic Modeling for DOW Chemical using LDA
+Topic Modeling for DOW Chemical using LDA<BR>
 
-This code was developed using Python 3.5. It also requires the following packages to be installed:
-pandas, re, time, nltk, sklearn, numpy, textblob
-
-This folder contains:
-Three Python Jupyter notebooks:
-	Homecare.ipynb
-	Feature Building For LDA.ipynb
-	LDA and NMF.ipynb
-
-Three python scripts with the same code as the notebooks above:
-	Homecare.py
-	Feature Building For LDA.py
-	LDA and NMF.py
+This code was developed using Python 3.5. It also requires the following packages to be installed:<BR>
+pandas, re, time, nltk, sklearn, numpy, textblob<BR>
+<BR>
+This folder contains:<BR>
+Three Python Jupyter notebooks:<BR>
+Homecare.ipynb<BR>
+Feature Building For LDA.ipynb<BR>
+LDA and NMF.ipynb<BR>
+<BR>
+Three python scripts with the same code as the notebooks above:<BR>
+Homecare.py<BR>
+Feature Building For LDA.py<BR>
+LDA and NMF.py<BR>
 	
-Three datasets:
-	wipes_reviews.csv
-	Ratings_Only_Reviews.csv
-	wipes_market_item_name_terms.csv
-	
+Three datasets:<BR>
+wipes_reviews.csv<BR>
+Ratings_Only_Reviews.csv<BR>
+wipes_market_item_name_terms.csv<BR>
 
-#/////////////////
-#/ INSTRUCTIONS //
-#/////////////////
 
-1) Ensure all files are saved in the same directory and all packages and dependencies are installed.
-2) To run the fiels, paste the code into your IDE or open the notebooks in Jupyter.
+#/////////////////<BR>
+#/ INSTRUCTIONS //<BR>
+#/////////////////<BR>
+
+1) Ensure all files are saved in the same directory and all packages and dependencies are installed.<BR>
+2) To run the fiels, paste the code into your IDE or open the notebooks in Jupyter.<BR>
 3) Run 'Homecare' (.py or ipynb) first. This will output 4 .csv files:<BR>
 home_products.csv    <- The data in this file is used by the subsequent script in step 4 <BR>
 count_of_products.csv <BR>
@@ -45,7 +45,4 @@ There is a section for each model at the end of the script with many parameters 
 Comments are included with each parameter (taken from the SKLearn website). This code is designed to be run multiple times, iteratively adjusting the parameters and manually inspecting the topics and attributes to assess for furthur use. <BR>
 				
 <center>*******PARAMETER TUNING**********</center><BR>
-				When running this script, each model section has 12 lines of code that set the data_sample (for lda or nmf) to a specific feature set created in the previous
-				script. To change which feature set the model uses, simply uncomment (remove the #) from one of the lines. After the data sample section you will find a group
-				of variables (such as lda_features) that are set to an integer or float value. By experimenting with these values, you will change the output of the model and the
-				topics it creates. 
+When running this script, each model section has 12 lines of code that set the data_sample (for lda or nmf) to a specific feature set created in the previous script. To change which feature set the model uses, simply uncomment (remove the #) from one of the lines. After the data sample section you will find a group of variables (such as lda_features) that are set to an integer or float value. By experimenting with these values, you will change the output of the model and the topics it creates. 
