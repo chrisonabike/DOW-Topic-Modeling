@@ -39,9 +39,7 @@ The features that are built are applied to both the file with the whole review a
 Additionally, these records are "tagged" with the topics the contain. <BR>
 <BR>
 5) The last file to run is 'LDA and NMF' (.py or ipynb). <BR>
-This code contains two models and is set up to automatically read in the data and train an LDA and NMF (Non-Negative Matrix Factorization) model. <BR>
-There is a section for each model at the end of the script with many parameters that can be tuned to affect the output of the topics. <BR>
-Comments are included with each parameter (taken from the SKLearn website). This code is designed to be run multiple times, iteratively adjusting the parameters and manually inspecting the topics and attributes to assess for furthur use. <BR>
+This code contains two models and is set up to automatically read in the data and train an LDA and NMF (Non-Negative Matrix Factorization) model. There is a section for each model at the end of the script with many parameters that can be tuned to affect the output of the topics. Comments are included with each parameter (taken from the SKLearn website). This code is designed to be run multiple times, iteratively adjusting the parameters and manually inspecting the topics and attributes to assess for furthur use. <BR><BR>
 				
 <center>*******PARAMETER TUNING**********</center><BR>
 When running this script, each model section has 12 lines of code that set the data_sample (for lda or nmf) to a specific feature set created in the previous script. To change which feature set the model uses, simply uncomment (remove the #) from one of the lines. After the data sample section you will find a group of variables (such as lda_features) that are set to an integer or float value. By experimenting with these values, you will change the output of the model and the topics it creates. 
