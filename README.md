@@ -1,7 +1,7 @@
 # DOW-Topic-Modeling
 Topic Modeling for DOW Chemical using LDA<BR>
 
-About: <BR>
+<b>About:</b> <BR>
 DOW Chemical compiled a file of online reviews of their products, scraped from prominent ecommerce websites such as Amazon and Walmart. The goal is to analyze these reviews and identify key prodct attributes and topics to promote how its existing products can be employed to improve performance in areas where unmet needs exist. 
 
 This code was developed using Python 3.5. It also requires the following packages to be installed:<BR>
@@ -17,7 +17,7 @@ Corresponding python scripts with the same code as the notebooks above:<BR>
 Feature Building For LDA.py<BR>
 LDA and NMF.py<BR></b>
 	
-The data is contained in the file 'wipes_reviews.csv'<BR>
+The data is contained in the file 'wipes_reviews.csv' (the file is much smaller than the original due to Git Hub size limits)<BR>
 A mapping file named 'wipes_market_item_name_terms.csv' was manually created to link terms with categories.<BR>
 
 #///////////////////////<BR>
