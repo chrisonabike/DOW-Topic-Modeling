@@ -20,9 +20,9 @@ LDA and NMF.py<BR></b>
 The data is contained in the file 'wipes_reviews.csv'<BR>
 A mapping file named 'wipes_market_item_name_terms.csv' was manually created to link terms with categories.<BR>
 
-#//////////////////////<BR>
+#////////////////////////<BR>
 #// INSTRUCTIONS //<BR>
-#//////////////////////<BR>
+#////////////////////////<BR>
 
 1) Ensure all files are saved in the same directory and all packages and dependencies are installed.<BR>
 2) To run the fiels, paste the code into your IDE or open the notebooks in Jupyter.<BR>
