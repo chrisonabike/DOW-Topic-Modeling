@@ -1,5 +1,8 @@
 # DOW-Topic-Modeling
-Topic Modeling for DOW Chemical using LDA<BR>
+Topic Modeling for DOW Chemical using LDA<BR><BR>
+
+About: <BR>
+DOW Chemical compiled a file of online reviews of their products, scraped from prominent ecommerce wwebsites such as Amazon and Walmart. The goal is to analyze these reviews and identify key prodct attributes and topics to promote how its existing products can be employed to improve performance in areas where unmet needs exist. 
 
 This code was developed using Python 3.5. It also requires the following packages to be installed:<BR>
 pandas, re, time, nltk, sklearn, numpy, textblob<BR>
