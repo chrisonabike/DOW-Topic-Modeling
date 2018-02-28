@@ -8,20 +8,17 @@ This code was developed using Python 3.5. It also requires the following package
 pandas, re, time, nltk, sklearn, numpy, textblob<BR>
 <BR>
 This folder contains 3 Python Jupyter notebooks:<BR>
-Homecare.ipynb<BR>
+<b>Homecare.ipynb<BR>
 Feature Building For LDA.ipynb<BR>
-LDA and NMF.ipynb<BR>
+LDA and NMF.ipynb<BR></b>
 <BR>
-Three python scripts with the same code as the notebooks above:<BR>
-Homecare.py<BR>
+Corresponding python scripts with the same code as the notebooks above:<BR>
+<b>Homecare.py<BR>
 Feature Building For LDA.py<BR>
-LDA and NMF.py<BR>
+LDA and NMF.py<BR></b>
 	
-Three datasets:<BR>
-wipes_reviews.csv<BR>
-Ratings_Only_Reviews.csv<BR>
-wipes_market_item_name_terms.csv<BR>
-
+The data is contained in the file 'wipes_reviews.csv'<BR>
+A mapping file named 'wipes_market_item_name_terms.csv' was manually created to link terms with categories.<BR>
 
 #/////////////////<BR>
 #/ INSTRUCTIONS //<BR>
